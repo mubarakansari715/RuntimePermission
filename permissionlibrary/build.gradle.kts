@@ -1,6 +1,7 @@
 plugins {
     alias(libs.plugins.android.library)
     alias(libs.plugins.kotlin.android)
+    id("maven-publish") // Add this line for the maven-publish plugin
 }
 
 android {
@@ -40,4 +41,19 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+}
+
+// Add this section for publishing configuration
+publishing {
+    publications {
+        register<MavenPublication>("release") {
+            groupId = "com.github.mubarakansari715"
+            artifactId = "permissionlibrary"
+            version = "0.0.1"
+
+            afterEvaluate {
+                from(components["release"])
+            }
+        }
+    }
 }
