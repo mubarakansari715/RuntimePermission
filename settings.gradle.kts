@@ -16,8 +16,10 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        maven { url = uri("https://www.jitpack.io" ) }
     }
 }
 
 rootProject.name = "RuntimePermission"
 include(":app")
+include(":permissionlibrary")
