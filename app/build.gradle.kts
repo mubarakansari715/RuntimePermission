@@ -52,5 +52,8 @@ dependencies {
     androidTestImplementation(libs.androidx.espresso.core)
 
     //add
-    implementation(project(":permissionlibrary"))
+    //implementation(project(":permissionlibrary"))
+
+    //repo
+    implementation(libs.runtimepermission)
 }
