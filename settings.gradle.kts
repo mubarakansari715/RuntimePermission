@@ -21,3 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "RuntimePermission"
 include(":app")
+include(":permissionlibrary")
