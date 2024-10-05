@@ -119,3 +119,13 @@ For more information, check out our video tutorials covering how to implement an
 
 ![Screen_recording_20241004_224205-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/dfcad089-dbf3-4d19-bca6-9caea531c741)
 
+### Step 7: Contributions & Feedback
+
+We welcome contributions, feedback, and suggestions to help improve this project! If you encounter any issues or have ideas for enhancements, feel free to:
+
+Open an Issue: You can report bugs, request new features, or suggest improvements by opening an issue in the Issues tab.
+
+Submit a Pull Request: If you'd like to contribute code, you're welcome to submit a pull request. Please ensure your contributions adhere to our coding guidelines and are thoroughly tested.
+
+Provide Feedback: Share your thoughts and suggestions via text or, even better, record a video explaining your ideas! We appreciate detailed feedback, as it helps us refine the project and create a better experience for everyone.
+
