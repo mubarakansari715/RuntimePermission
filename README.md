@@ -1,5 +1,5 @@
 
-# Android Runtime User Permissions
+# Android Runtime User Permissions - Kotlin
 
 This library simplifies handling runtime permissions in Android applications. Follow the steps below to integrate it into your project.
 
